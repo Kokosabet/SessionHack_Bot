@@ -1,0 +1,40 @@
+{
+    "name": "اختراق بكود الترمكس @T_G_L",
+    "description": "تقدر تسوي بالبوت اي شي",
+    "logo": "https://telegra.ph/file/5cba9ebf0c72e8633e955.jpg",
+    "keywords": [
+        "TELETHON",
+        "By @T_G_L",
+        "Telegram Bot",
+        "𝒌𝒐𝒌𝒐",
+        "ReallyKoko"
+    ],
+    "website": "https://github.com/kokosabet/sessionhack_bot",
+    "success_url": "https://telegram.dog/Reallykoko",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "جيبه من هنا @BotFather",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "جيبه من موقع التلقرام my.telegram.org",
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "جيبه من موقع التلقرام my.telegram.org",
+            "value": ""
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
